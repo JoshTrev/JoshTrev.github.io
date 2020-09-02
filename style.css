@@ -1,5 +1,112 @@
-/* .parent{
-    background-image: url("Images/abstract-colorful-digital-art-uhdpaper.com-4K-4.337.jpg");
-    width: 3840px;
-    height: 2160px;
-} */
+/* Found this code on startbootstrap.com as an example. Used my own image. */
+
+body {
+    background: url("Images/abstract-colorful-digital-art-uhdpaper.com-4K-4.337.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  #indexContainer{
+    max-width: 750px;
+  }
+
+  #contactContainer{
+    max-width: 750px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+
+  #portfolioContainer{
+    max-width: 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  .skinnyBar{
+  background-color: #25ffff;
+  height: 5px;
+  }
+
+  .footerTextBlock{
+    background-color: #343a40;
+    height: 50px;
+  }
+
+  .indexTextSmall{
+    font-size: 12px;
+  }
+
+  @media (min-width: 280px){
+    .indexText{
+      font-size: 7px;
+    }
+  }
+
+  @media (min-width: 320px){
+    .indexText{
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 360px){
+    .indexText{
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 411px){
+    .indexText{
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 500px){
+    .indexText{
+      font-size: 14.7px;
+    }
+  }
+  
+  @media (min-width: 576px){
+    .indexText{
+      font-size: 20px;
+    }
+
+    #portfolioContainer{
+      margin: auto;
+    }
+  }
+
+  @media (min-width: 630px){
+    #portfolioContainer{
+      margin-left: 65px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .indexText{
+      font-size: 23.1px;
+    }
+  }
+
+  @media (min-width: 768px){
+    #indexContainer{
+      margin: auto;
+    }
+
+    #contactContainer{
+      margin: auto;
+    }
+  }
+
+  @media (min-width: 880px){
+    
+    #indexContainer{
+      margin-left: 65px;
+    }
+
+    #contactContainer{
+      margin-left: 65px;
+    }
+  }
