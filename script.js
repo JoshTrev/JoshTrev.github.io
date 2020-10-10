@@ -9,3 +9,7 @@ $("#img2").on("click" , function (event){
 $("#img3").on("click" , function (event){
     window.location.href = "https://joshtrev.github.io/PasswordGeneratorHomework/"
 })
+
+$("#img4").on("click" , function (event){
+    window.location.href = "https://eatdaburgerapp12.herokuapp.com/"
+})
