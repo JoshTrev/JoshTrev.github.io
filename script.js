@@ -13,3 +13,7 @@ $("#img3").on("click" , function (event){
 $("#img4").on("click" , function (event){
     window.location.href = "https://eatdaburgerapp12.herokuapp.com/"
 })
+
+$("#img5").on("click" , function (event){
+    window.location.href = "https://trip-wishlist.herokuapp.com/home/"
+})
